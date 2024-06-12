@@ -1,0 +1,148 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    background-color:ghostwhite;
+}
+
+section{
+    background-color:cornsilk;
+}
+
+.contenedor{
+    /* Con un margin de -15px se mueve a la derecha como si se estubiera saliedo de la pagina*/
+    background-color: blue;
+    margin: -15px;
+    /*padding: 15px;
+    border: 10px solid;*/
+}
+
+.contenedor0{
+    /* Con 0px no se muestra el margin*/
+    background-color: beige;
+    margin: 0px;
+    /*padding: 10px;
+    border: 10px solid;*/
+}
+
+.conetenedor30{
+    /* Con el margin de 30px se aplica a todos los lados del contenedor y se nota en cambio un poco*/
+    background-color: blueviolet;
+    margin: 30px;
+}
+
+.contenedor60{
+    /* Con un margin de 60px es notoria la vista del margin*/
+    background-color: bisque;
+    margin: 60px;
+    /*padding: 10px;
+    border: 3px solid;*/
+}
+
+/* El contenerdor solo se le aplico el margen en la parte de arriba*/
+.marginTop{
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+/* Al contenedor se le aplico el margin en la parte derecha, se nota el espacio en la derecha del contenedor*/
+.marginRight{
+    margin-right: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+/* El margen se le aplico al contenedor wen la parte de abajo*/
+.marginBottom{
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+/* En este contenedor seaplico el amrgen en la parte izquierda y se nota como el contenedor esta mas hacia la derecha */
+.marginLeft{
+    margin-left: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+
+/* Colocamos el background en hexadecimal*/
+.backgroundHexa{
+    background-color: #009846;
+}
+
+/* background con el nombre del color*/
+.backgroundName{
+    background-color:burlywood;
+}
+
+/* Background puesto con rgb*/
+.backgroundRGB{
+    background-color: rgb(80, 177, 177);
+}
+
+.backgroundImagePC{
+    background-image: url("/Imagenes/dune.jpg"), url("/Imagenes/images.jpg");
+    background-size: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    max-width: 500px;
+    min-height: 350px;
+}
+
+.backgroundImageNet{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/35/Dune_2021-Sandworm.jpg");
+    background-size: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    max-width: 500px;
+    min-height: 350px;
+}
+
+/* Con repeat y hacemos que la imagen se repita en horizontal*/
+.backgroundRepeatX {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/35/Dune_2021-Sandworm.jpg");
+    background-repeat: repeat-x; /* Repite la imagen en la dirección horizontal */
+    max-width: 500px;
+    min-height: 500px;
+}
+
+/* Con repeat y hacemos que la imagen se repita den vertical*/
+.backgroundRepeatY{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/35/Dune_2021-Sandworm.jpg");
+    background-repeat: repeat-y;
+    max-width: 500px;
+    min-height: 500px;
+}
+
+/* Con no reapeat hacemos que no se repita la imagen de fondo*/
+.backgroundNoRepeat{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/3/35/Dune_2021-Sandworm.jpg");
+    background-repeat: no-repeat;
+    max-width: 500px;
+    min-height: 500px;
+}
+
+/* */
+.divScroll{
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/02/dune-parte-2-3278255.jpg?tf=3840x");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    background-attachment: scroll;
+}
+
+.divFixed{
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/02/dune-parte-2-3278255.jpg?tf=3840x");
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    background-attachment: fixed;
+}
